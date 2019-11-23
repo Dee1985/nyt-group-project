@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+}
+.btn {
+    background-color: rebeccapurple;
+    border: none;
+}
+
+
+body {
+    background: url('triangle-mosaic.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }

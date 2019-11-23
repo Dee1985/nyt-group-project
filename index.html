@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet"/>
+        
+        <title>Document</title>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <div class="row mt-4">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+        <nav>
+            <div class="jumbotron">
+                <h1 class="text-center">
+                    <strong>
+                        <i class=""></i>
+                        New York Times Search</strong>
+                </h1>
+            </div>
+        </nav>
+    </div>
+    <div class="col-2"></div>
+</div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="card">
+                    <div class="card-header">
+                     <p><i class="far fa-newspaper mr-2"></i>Search Parameters</p>   
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <p>search term</p>
+                                <input class="form-control" id="search-term" placeholder="Default input" type="text">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Number of records to retrieve:</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                                <br>
+                                <p>Start year (optional)</p>
+                                <input class="form-control" placeholder="Default input" type="text">
+                                <br>
+                                <p>End year (optional)</p>
+                                <input class="form-control" placeholder="Default input" type="text">
+                                <br>
+                                <br>
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="btn btn-primary" id="search-button" type="submit">Search</button>
+                                        <button class="btn btn-primary" id="clear-button" type="submit">Clear Results</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row my-4">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="card">
+                    <p class="card-header">Top Articles</p>
+                    <div class="card-body" id="search-results-container"></div>
+                    
+            <div class="col-2"></div>
+        </div>
+        <br>
+        <hr>
+                    <footer>
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-auto">
+                                <p>Made With Some Love... There's Always Room For More<i class="fas fa-heart ml-2"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-replace-svg="nest"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+       <script src="assets/js/main.js"></script>
+        </html>
+    </body>
+</html>
